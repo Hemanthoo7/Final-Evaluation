@@ -10,11 +10,8 @@ class Dimensions extends AbstractSource
     {
         if (!$this->_options) {
             $this->_options = [
-                ['label' => __('Cotton'),   'value' => 'cotton'],
-                ['label' => __('Leather'),  'value' => 'leather'],
-                ['label' => __('Silk'),     'value' => 'silk'],
-                ['label' => __('Fur'),      'value' => 'fur'],
-                ['label' => __('Wool'),     'value' => 'wool'],
+                ['label' => __('Length'),   'value' => 'Length'],
+                ['label' => __('Width'),  'value' => 'Width'],
             ];
         }
         return $this->_options;

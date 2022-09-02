@@ -16,8 +16,8 @@ class Dimensions extends AbstractBackend
 public function validate($object)
 {
     $value= $object ->getData($this->getAttribute()->getAttributeCode());
-    if(($object->getAttributeSetId() == 10) && ($value == 'fur')){
-        throw new LocalizedException(__('Bottom Cannot be fur'));
+    if(($object->getAttributeSetId() == 10) && ($value == 'length')){
+        throw new LocalizedException(__('Length cannot be'));
     }
 }
 
